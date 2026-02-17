@@ -2,9 +2,10 @@ const express = require('express');
 const app = express();
 require('dotenv').config();
 
-
+const artist_routes = require('./scripts/artists-router.js');
 const genre_routes = require('./scripts/genres-router.js');
 
+app.use('/api/artists', artist_routes);
 app.use('/api/genres', genre_routes);
 
 // Error handling for unknown routes
@@ -16,4 +17,9 @@ const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
     console.log('listening on port 8080');
     console.log('http://localhost:8080');
+
+    console.log(`http://localhost:8080/api/artists`);
+    console.log(`http://localhost:8080/api/artists/129`);
+    console.log(`http://localhost:8080/api/artists/averages/129`);
+    console.log(`http://localhost:8080/api/genres`);
 });
