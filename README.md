@@ -20,20 +20,7 @@ This API provides endpoints to query songs, artists, genres, and playlists from 
 - **Express** — HTTP server and routing
 - **Supabase** — Cloud PostgreSQL database
 - **dotenv** — Environment variable management
-- **Render** — Hosting
-
----
-
-## Setup & Installation
-
-1. Clone the repository
-2. Run `npm install`
-3. Copy `.env.example` to `.env` and fill in your Supabase credentials:
-   ```
-   SUPABASE_URL=your_supabase_url
-   SUPABASE_ANON_KEY=your_supabase_anon_key
-   ```
-4. Run `npm start` (or `npm run dev` for nodemon auto-restart)
+- **Vercel** — Hosting
 
 ---
 
@@ -65,31 +52,31 @@ This API provides endpoints to query songs, artists, genres, and playlists from 
 
 ## Test Links
 
-- [/api/artists](BASE_URL/api/artists)
-- [/api/artists/129](BASE_URL/api/artists/129)
-- [/api/artists/sdfjkhsdf](BASE_URL/api/artists/sdfjkhsdf)
-- [/api/artists/averages/129](BASE_URL/api/artists/averages/129)
-- [/api/genres](BASE_URL/api/genres)
-- [/api/songs](BASE_URL/api/songs)
-- [/api/songs/sort/artist](BASE_URL/api/songs/sort/artist)
-- [/api/songs/sort/year](BASE_URL/api/songs/sort/year)
-- [/api/songs/sort/duration](BASE_URL/api/songs/sort/duration)
-- [/api/songs/1010](BASE_URL/api/songs/1010)
-- [/api/songs/sjdkfhsdkjf](BASE_URL/api/songs/sjdkfhsdkjf)
-- [/api/songs/search/begin/love](BASE_URL/api/songs/search/begin/love)
-- [/api/songs/search/begin/sdjfhs](BASE_URL/api/songs/search/begin/sdjfhs)
-- [/api/songs/search/any/love](BASE_URL/api/songs/search/any/love)
-- [/api/songs/search/year/2017](BASE_URL/api/songs/search/year/2017)
-- [/api/songs/search/year/2027](BASE_URL/api/songs/search/year/2027)
-- [/api/songs/artist/149](BASE_URL/api/songs/artist/149)
-- [/api/songs/artist/7834562](BASE_URL/api/songs/artist/7834562)
-- [/api/songs/genre/115](BASE_URL/api/songs/genre/115)
-- [/api/playlists/3](BASE_URL/api/playlists/3)
-- [/api/playlists/35362](BASE_URL/api/playlists/35362)
-- [/api/mood/dancing/5](BASE_URL/api/mood/dancing/5)
-- [/api/mood/dancing/500](BASE_URL/api/mood/dancing/500)
-- [/api/mood/dancing/ksdjf](BASE_URL/api/mood/dancing/ksdjf)
-- [/api/mood/happy/8](BASE_URL/api/mood/happy/8)
-- [/api/mood/happy](BASE_URL/api/mood/happy)
-- [/api/mood/coffee/10](BASE_URL/api/mood/coffee/10)
-- [/api/mood/studying/15](BASE_URL/api/mood/studying/15)
+- [/api/artists](https://comp4513-spotify-api.vercel.app/api/artists)
+- [/api/artists/129](https://comp4513-spotify-api.vercel.app/api/artists/129)
+- [/api/artists/sdfjkhsdf](https://comp4513-spotify-api.vercel.app/api/artists/sdfjkhsdf)
+- [/api/artists/averages/129](https://comp4513-spotify-api.vercel.app/api/artists/averages/129)
+- [/api/genres](https://comp4513-spotify-api.vercel.app/api/genres)
+- [/api/songs](https://comp4513-spotify-api.vercel.app/api/songs)
+- [/api/songs/sort/artist](https://comp4513-spotify-api.vercel.app/api/songs/sort/artist)
+- [/api/songs/sort/year](https://comp4513-spotify-api.vercel.app/api/songs/sort/year)
+- [/api/songs/sort/duration](https://comp4513-spotify-api.vercel.app/api/songs/sort/duration)
+- [/api/songs/1010](https://comp4513-spotify-api.vercel.app/api/songs/1010)
+- [/api/songs/sjdkfhsdkjf](https://comp4513-spotify-api.vercel.app/api/songs/sjdkfhsdkjf)
+- [/api/songs/search/begin/love](https://comp4513-spotify-api.vercel.app/api/songs/search/begin/love)
+- [/api/songs/search/begin/sdjfhs](https://comp4513-spotify-api.vercel.app/api/songs/search/begin/sdjfhs)
+- [/api/songs/search/any/love](https://comp4513-spotify-api.vercel.app/api/songs/search/any/love)
+- [/api/songs/search/year/2017](https://comp4513-spotify-api.vercel.app/api/songs/search/year/2017)
+- [/api/songs/search/year/2027](https://comp4513-spotify-api.vercel.app/api/songs/search/year/2027)
+- [/api/songs/artist/149](https://comp4513-spotify-api.vercel.app/api/songs/artist/149)
+- [/api/songs/artist/7834562](https://comp4513-spotify-api.vercel.app/api/songs/artist/7834562)
+- [/api/songs/genre/115](https://comp4513-spotify-api.vercel.app/api/songs/genre/115)
+- [/api/playlists/3](https://comp4513-spotify-api.vercel.app/api/playlists/3)
+- [/api/playlists/35362](https://comp4513-spotify-api.vercel.app/api/playlists/35362)
+- [/api/mood/dancing/5](https://comp4513-spotify-api.vercel.app/api/mood/dancing/5)
+- [/api/mood/dancing/500](https://comp4513-spotify-api.vercel.app/api/mood/dancing/500)
+- [/api/mood/dancing/ksdjf](https://comp4513-spotify-api.vercel.app/api/mood/dancing/ksdjf)
+- [/api/mood/happy/8](https://comp4513-spotify-api.vercel.app/api/mood/happy/8)
+- [/api/mood/happy](https://comp4513-spotify-api.vercel.app/api/mood/happy)
+- [/api/mood/coffee/10](https://comp4513-spotify-api.vercel.app/api/mood/coffee/10)
+- [/api/mood/studying/15](https://comp4513-spotify-api.vercel.app/api/mood/studying/15)
