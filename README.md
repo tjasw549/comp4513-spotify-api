@@ -71,6 +71,7 @@ This API provides endpoints to query songs, artists, genres, and playlists from 
 - [/api/songs/artist/149](https://comp4513-spotify-api.vercel.app/api/songs/artist/149)
 - [/api/songs/artist/7834562](https://comp4513-spotify-api.vercel.app/api/songs/artist/7834562)
 - [/api/songs/genre/115](https://comp4513-spotify-api.vercel.app/api/songs/genre/115)
+- [/api/playlists](https://comp4513-spotify-api.vercel.app/api/playlists)
 - [/api/playlists/3](https://comp4513-spotify-api.vercel.app/api/playlists/3)
 - [/api/playlists/35362](https://comp4513-spotify-api.vercel.app/api/playlists/35362)
 - [/api/mood/dancing/5](https://comp4513-spotify-api.vercel.app/api/mood/dancing/5)
