@@ -3,15 +3,33 @@ const app = express();
 require('dotenv').config();
 
 // Root request
-//
+app.get('/', (req, res) => {
+    res.json({
+        message: 'Welcome to the Spotify Hits API',
+        endpoints: [
+            '/api/artists',
+            '/api/genres',
+            '/api/songs',
+            '/api/playlists/:ref',
+            '/api/mood/dancing/:ref',
+            '/api/mood/happy/:ref',
+            '/api/mood/coffee/:ref',
+            '/api/mood/studying/:ref',
+        ]
+    });
+});
 
 const artist_routes = require('./scripts/artists-router.js');
 const genre_routes = require('./scripts/genres-router.js');
 const song_routes = require('./scripts/songs-router.js');
+const playlist_routes = require('./scripts/playlists-router.js');
+const mood_routes = require('./scripts/mood-router.js');
 
 app.use('/api/artists', artist_routes);
 app.use('/api/genres', genre_routes);
 app.use('/api/songs', song_routes);
+app.use('/api/playlists', playlist_routes);
+app.use('/api/mood', mood_routes);
 
 // Error handling for unknown routes
 app.use((req, res) => {
@@ -35,4 +53,9 @@ app.listen(PORT, () => {
     console.log(`http://localhost:8080/api/songs/search/year/2017`);
     console.log(`http://localhost:8080/api/songs/artist/149`);
     console.log(`http://localhost:8080/api/songs/genre/115`);
+    console.log(`http://localhost:8080/api/playlists/3`);
+    console.log(`http://localhost:8080/api/mood/dancing/5`);
+    console.log(`http://localhost:8080/api/mood/happy/8`);
+    console.log(`http://localhost:8080/api/mood/coffee/10`);
+    console.log(`http://localhost:8080/api/mood/studying/15`);
 });
