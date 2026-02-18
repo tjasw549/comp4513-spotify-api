@@ -16,11 +16,11 @@ This API provides endpoints to query songs, artists, genres, and playlists from 
 
 ## Built With
 
-- **Node.js** — JavaScript runtime
-- **Express** — HTTP server and routing
-- **Supabase** — Cloud PostgreSQL database
-- **dotenv** — Environment variable management
-- **Vercel** — Hosting
+- **Node.js** - JavaScript runtime
+- **Express** - HTTP server and routing
+- **Supabase** - Cloud PostgreSQL database
+- **dotenv** - Environment variable management
+- **Vercel** - Hosting
 
 ---
 
